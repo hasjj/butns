@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "test: pytest",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/pytest -q",
+      "problemMatcher": []
+    },
+    {
+      "label": "format: black .",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/black .",
+      "problemMatcher": []
+    }
+  ]
+}
